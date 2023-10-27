@@ -21,6 +21,10 @@ body {
 /* Header */
 header {
     background-color: lightcyan;
+    position: fixed;
+    padding: 0 2rem;
+    width: 100%;
+    box-shadow: 0 3px 3px teal;
 }
 
 /* Header font */
