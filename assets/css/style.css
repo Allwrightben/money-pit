@@ -13,34 +13,83 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic styles */
-    color: darkslategray;
-   
+    color: darkslategray; 
+    font-family: "dm sans";  
 }
 
 /* Header */
 header {
     background-color: lightcyan;
     position: fixed;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header a {
+    text-decoration: none;
+    color: darkslategray;
 }
 
 /* Header font */
-header h1 {
+h1 {
     font-family: nosifer, "dm sans", sans-serif;
+    text-transform: uppercase;    
+}
+
+/* Menu */
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+#menu  li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border: 2px solid darkslategray;
+    padding: 2px;
+    border-radius: 40%;
+    border-color: darkslategray;
+}
+
+/* Navbar dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: lightcyan;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px teal;
+        display: none;
+        top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
 main {
+    font-family: "dm sans", sans-serif;
     background-color: lightgoldenrodyellow;
     /* use flexbox to take up surplus space and push footer down */
     flex-grow: 1;
-}
-
-main {
-    font-family: "dm sans", sans-serif;
+    margin-top: 50px;
 }
 
 /* Footer */
