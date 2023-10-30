@@ -37,7 +37,8 @@ header a {
 /* Header font */
 h1 {
     font-family: nosifer, "dm sans", sans-serif;
-    text-transform: uppercase;    
+    text-transform: uppercase;  
+    font-size: 1.7em; 
 }
 
 /* Menu */
@@ -95,4 +96,27 @@ main {
 /* Footer */
 footer {
     background-color: lightsalmon;
+}
+
+/* Media query for tabletsw and larger (768px+) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position:relative;
+        width: fit-content;
+        padding-right: 1em;
+        box-shadow: none;
+    }
+
+    #menu {
+       display: flex; 
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    
 }
