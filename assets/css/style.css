@@ -19,19 +19,18 @@ body {
 
 /* Header */
 header {
-    background-color: lightcyan;
+    background: url("..assets/images/oak-island-aerial.webp");
     position: fixed;
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px teal;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 header a {
     text-decoration: none;
-    color: darkslategray;
+    color: darkred;
 }
 
 /* Header font */
@@ -55,18 +54,16 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid darkslategray;
-    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid darkred;
+    border-top: 1px solid darkred;
 }
 
 /* Navbar dropdown toggle*/
 nav {
     position: absolute;
-    background-color: lightcyan;
-        width: 100%;
+    background: darkred        
         left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px teal;
+        padding: 0 1rem;        
         display: none;
         top: 100%;
 }
@@ -90,12 +87,30 @@ main {
     background-color: lightgoldenrodyellow;
     /* use flexbox to take up surplus space and push footer down */
     flex-grow: 1;
-    margin-top: 102px;
+    margin-top: px;
 }
 
-/* Footer */
-footer {
-    background-color: lightsalmon;
+/* main image styles*/
+#mainimage {
+    height: 600px;
+    width: 100%;
+    background: url("../images/oakmain.jpg") no-repeat center center/cover
+
+}
+
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query for tablets and larger (768px+) */
@@ -110,7 +125,6 @@ footer {
 
     #menu {
        display: flex; 
-       border: 1.5px solid transparent;
        text-align: center;
     }
 
@@ -127,15 +141,15 @@ footer {
     }
 
     main {
-        margin-top: 150px;
+        margin-top: px;
     }
 }
 
 /* Media query for laptops and larger (992px+) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid darkslategray;
-        border-top: 1px solid darkslategray;
+        border-bottom: 1px solid darkred;
+        border-top: 1px solid darkred;
     }
 }
   
