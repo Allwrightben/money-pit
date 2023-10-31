@@ -39,6 +39,7 @@ h1 {
     font-family: nosifer, "dm sans", sans-serif;
     text-transform: uppercase;  
     font-size: 1.7em; 
+    letter-spacing: 1px;
 }
 
 /* Menu */
@@ -50,12 +51,13 @@ h1 {
 
 #menu  li {
     margin-bottom: 0.5em;
+    
 }
 
 .active {
     border: 2px solid darkslategray;
     padding: 2px;
-    border-radius: 40%;
+    border-radius: 30%;
     border-color: darkslategray;
 }
 
@@ -90,7 +92,7 @@ main {
     background-color: lightgoldenrodyellow;
     /* use flexbox to take up surplus space and push footer down */
     flex-grow: 1;
-    margin-top: 50px;
+    margin-top: 102px;
 }
 
 /* Footer */
@@ -118,5 +120,13 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-    
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 150px ;
+    }
 }
