@@ -1,5 +1,6 @@
 /* Google font import*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@300&family=Nosifer&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@300&family=Nosifer&family=Oswald:wght@200;300;400;500;600;700&family=Snowburst+One&display=swap');
+
 
 /* Asterisk wild card selector to overide default styles */
 * {
@@ -13,59 +14,61 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: darkslategray; 
-    font-family: "dm sans";  
+    color: #009B4D; 
+    font-family: "dm sans", sans-serif;  
 }
 
 /* Header */
 header {
-    background: url("..assets/images/oak-island-aerial.webp");
-    position: fixed;
+    background-color: #009B4D;
+    position: fixed;    
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
+    box-shadow: 0 3px 2px ivory;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    font-family: "dm sans", sans-serif;
 }
 header a {
     text-decoration: none;
-    color: darkred;
+    color: ivory;
 }
 
 /* Header font */
 h1 {
-    font-family: nosifer, "dm sans", sans-serif;
+    font-family: "dm sans", sans-serif;
     text-transform: uppercase;  
-    font-size: 1.7em; 
-    letter-spacing: 1px;
+    font-size: 2em; 
+    letter-spacing: 1px;    
 }
 
 /* Menu */
 #menu {
-    font-size: 120%;
+    font-size: 150%;
     list-style-type: none;
-    letter-spacing: 3px;
+    letter-spacing: 3px;  
+    background: rgba(244, 247, 244, 0.5)
 }
 
 #menu  li {
-    margin-bottom: 0.5em;
-    
+    margin-bottom: 0.5em;    
 }
 
 .active {
-    border-bottom: 1px solid darkred;
-    border-top: 1px solid darkred;
+    border-bottom: 1px solid ivory;
+    border-top: 1px solid ivory;
 }
 
 /* Navbar dropdown toggle*/
 nav {
-    position: absolute;
-    background: darkred        
+    position: absolute;           
         left: 0;
         padding: 0 1rem;        
         display: none;
         top: 100%;
+        right: 0;
 }
 
 /* Nav toggle */
@@ -78,7 +81,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2rem;    
 }
 
 /* Main content */
@@ -86,8 +89,7 @@ main {
     font-family: "dm sans", sans-serif;
     background-color: lightgoldenrodyellow;
     /* use flexbox to take up surplus space and push footer down */
-    flex-grow: 1;
-    margin-top: px;
+    flex-grow: 1;        
 }
 
 /* main image styles*/
@@ -98,6 +100,11 @@ main {
 
 }
 
+#main-description {
+    max-width: 800px;
+    text-align: center;    
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
@@ -106,11 +113,11 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
-#social-networks i {
-    font-size: 160%;
+/* burger menu styles*/
+i {
+    font-size: 130%;
     padding: 5%;
-    color: #3a3a3a;
+    color: ivory;
 }
 
 /* Media query for tablets and larger (768px+) */
@@ -126,6 +133,7 @@ main {
     #menu {
        display: flex; 
        text-align: center;
+       background: none
     }
 
     #menu > li {
@@ -139,17 +147,13 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
-    main {
-        margin-top: px;
-    }
 }
 
 /* Media query for laptops and larger (992px+) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid darkred;
-        border-top: 1px solid darkred;
+        border-bottom: 1px solid ivory;
+        border-top: 1px solid ivory;
     }
 }
   
