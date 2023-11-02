@@ -12,8 +12,7 @@
 /* general styles*/
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    
     color: #009B4D; 
     font-family: "dm sans", sans-serif;  
 }
@@ -22,13 +21,13 @@ body {
 header {
     background-color: #009B4D;
     position: fixed;    
-    padding: 0 1rem;
     z-index: 99;
     width: 100%;
+    box-sizing: border-box;
     box-shadow: 0 3px 2px ivory;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     font-family: "dm sans", sans-serif;
 }
 header a {
@@ -101,38 +100,52 @@ main {
 }
 
 #intro-signup {
-    width: 95%;
+    width: 90%;
     margin: auto;
-    border: 1px solid black;
     border-radius: 5px;
-    background-color: #009B4D;
+    background-color: ivory;
 }
 #history-invite {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #009B4D;
     margin: 5px;
     border-radius: 5px;
+    box-shadow: 2px 2px 3px #009B4D;    
 }
 
 #intro {
     max-width: 800px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #009B4D;
     margin: 5px;
     border-radius: 5px;
     background-color: ivory;
+    box-shadow: 2px 2px 3px #009B4D;
 }
 
 #signup-reason {
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #009B4D;
+    box-shadow: 2px 2px 3px #009B4D;
     margin: 5px;
     border-radius: 5px;
 }
 
+roosevelt {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+img {
+    max-width: 100% !important;
+    object-fit: cover !important;
+}
+
 /*footer*/
-footer a {
-    color: #009B4D;
+footer {
+    background-color: #009B4D;
 }
 #social-networks {
     text-align: center;
@@ -161,7 +174,7 @@ i {
 
     #menu {
        display: flex; 
-       text-align: center;
+       ;
        background: none
     }
 
