@@ -11,8 +11,10 @@
 
 /* general styles*/
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
-
+    overflow: auto;
     color: #009B4D;
     font-family: "dm sans", sans-serif;
 }
@@ -25,11 +27,12 @@ header {
     z-index: 99;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: 0 3px 2px ivory;
+    box-shadow: 0 3px 3px gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "dm sans", sans-serif;
+
 }
 
 header a {
@@ -41,8 +44,7 @@ header a {
 h1 {
     font-family: "dm sans", sans-serif;
     text-transform: uppercase;
-    font-size: 2em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 /* Menu */
@@ -50,11 +52,13 @@ h1 {
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 3px;
-    background: #009B4D
+    background: #009B4D;
+    width: 100%;
+    padding: 1px 0;
 }
 
-#menu li {
-    margin-bottom: 0.5em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -71,6 +75,7 @@ nav {
     display: none;
     top: 100%;
     right: 0;
+    flex-shrink: 0;
 }
 
 /* Nav toggle */
@@ -91,7 +96,7 @@ main {
     font-family: "dm sans", sans-serif;
     background-color: ivory;
     /* use flexbox to take up surplus space and push footer down */
-    flex-grow: 1;
+    flex-grow: 1 0 auto;
 }
 
 /* main image styles*/
@@ -151,6 +156,11 @@ p {
     text-align: center;
 }
 
+/* signup page and form */
+#signup {
+    padding-top: 90px;
+}
+
 /*footer*/
 footer {
     background-color: #009B4D;
@@ -174,6 +184,18 @@ i {
 
 /* Media query for tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
+
+    /* to push signup section down on larger screens*/
+    main {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #signup {
+        padding-top: 105px;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -184,12 +206,14 @@ i {
 
     #menu {
         display: flex;
-        ;
+        align-items: center;
         background: none
     }
 
     #menu>li {
         padding-left: 2rem;
+        display: flex;
+        align-items: center;
     }
 
     .nav-toggle-label {
@@ -198,8 +222,11 @@ i {
 
     #logo {
         font-size: 250%;
-        line-height: 75px;
         margin: 0 0.5rem;
+    }
+     
+    iframe {
+        flex-grow: 1;
     }
 }
 
@@ -213,5 +240,24 @@ i {
     #intro-signup {
         display: flex;
         justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    /* to push signup section down on larger screens*/
+    #signup {
+        padding-top: 70px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        flex-grow: 1;
     }
 }
