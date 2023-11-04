@@ -170,7 +170,6 @@ p {
 #signup-form {
     background-color: rgba(60, 60, 60, 0.6);
     padding: 10px;
-    width:
 }
 
 #signup-form>h3 {
@@ -238,73 +237,82 @@ i {
         top: 120px;
     }
 
+    .radio-buttons {
+        padding: 0 10%;
+    }
+
     .text-input:hover {
         border-color: #009B4D;
     }
 
-        nav {
-            display: block;
-            position: relative;
-            width: fit-content;
-            padding-right: 1em;
-            box-shadow: none;
-        }
-
-        #menu {
-            display: flex;
-            align-items: center;
-            background: none
-        }
-
-        #menu>li {
-            padding-left: 2rem;
-            display: flex;
-            align-items: center;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #logo {
-            font-size: 250%;
-            margin: 0 0.5rem;
-        }
-
-        iframe {
-            flex-grow: 1;
-        }
+    .join-button:hover {
+        color: #009B4D;
+        background-color: ivory;
     }
 
-    /* Media query for laptops and larger (992px+) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid ivory;
-            border-top: 1px solid ivory;
-        }
-
-        #intro-signup {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            padding-top: 10px;
-        }
-
-        /* to push signup section down on larger screens*/
-        #signup {
-            padding-top: 70px;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-        }
-
-        iframe {
-            flex-grow: 1;
-        }
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1em;
+        box-shadow: none;
     }
+
+    #menu {
+        display: flex;
+        align-items: center;
+        background: none
+    }
+
+    #menu>li {
+        padding-left: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        margin: 0 0.5rem;
+    }
+
+    iframe {
+        flex-grow: 1;
+    }
+}
+
+/* Media query for laptops and larger (992px+) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid ivory;
+        border-top: 1px solid ivory;
+    }
+
+    #intro-signup {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    /* to push signup section down on larger screens*/
+    #signup {
+        padding-top: 70px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        flex-grow: 1;
+    }
+}
