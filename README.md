@@ -7,6 +7,12 @@ Curse.jpg -
 oak-island-aerial.webp - 
 <https://www.oakislandmoneypit.com/>
 
+Roosevelt image -
+<https://allthatsinteresting.com/oak-island-treasure>
+
+forest image - 
+<https://wall.alphacoders.com/big.php?i=866198>
+
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
