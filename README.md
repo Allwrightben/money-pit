@@ -22,6 +22,12 @@ forest image -
 daniel-mcginnis -
 <https://platosplaydoh.wordpress.com/2014/10/27/the-money-pit/>
 
+truro image -
+<https://www.heraldweekly.com/oak-island-mystery/18?xcmg=1>
+
+morial image - 
+https://www.findagrave.com/cemetery/2655301/oak-island-memorial
+
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
