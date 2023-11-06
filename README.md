@@ -7,11 +7,20 @@ Curse.jpg -
 oak-island-aerial.webp - 
 <https://www.oakislandmoneypit.com/>
 
-Roosevelt image -
+roosevelt2 -
+digging -
+oak-island -
+stone -
+coin -
+map -
+phips -
 <https://allthatsinteresting.com/oak-island-treasure>
 
 forest image - 
 <https://wall.alphacoders.com/big.php?i=866198>
+
+daniel-mcginnis -
+<https://platosplaydoh.wordpress.com/2014/10/27/the-money-pit/>
 
 Welcome,
 

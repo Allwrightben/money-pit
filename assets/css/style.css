@@ -115,7 +115,7 @@ main {
     background-color: ivory;
 }
 
-#history-invite {
+#intro {
     text-align: center;
     border: 1px solid #009B4D;
     margin: 5px;
@@ -123,13 +123,10 @@ main {
     box-shadow: 2px 2px 3px #009B4D;
 }
 
-#intro {
-    max-width: 800px;
+#history-invite {
     text-align: center;
     border: 1px solid #009B4D;
     margin: 5px;
-    border-radius: 5px;
-    background-color: ivory;
     box-shadow: 2px 2px 3px #009B4D;
 }
 
@@ -146,6 +143,52 @@ main {
     align-items: center;
     justify-content: center;
     margin: 5px;
+}
+/* History page */
+#history-heading {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:900;
+    text-transform: uppercase;
+    background: url("../images/digging.jpg");
+    max-width: 900px;
+    color: ivory;
+}
+
+#history-divs {
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 5px;
+    background-color: #009B4D;
+    border: 1px solid #009B4D;
+
+}
+
+#hisimg {
+    width: 100%;
+    object-fit: cover;
+    padding: 1%;
+    color: ivory;
+}
+
+#hisdate {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #009B4D;
+    background-color: ivory;
+}
+
+#histext {
+    text-align: center;
+        border: 1px solid #009B4D;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px #009B4D;
+        background-color: ivory;
 }
 
 /* mentor helped with the below code to fix overflow issue*/
@@ -194,7 +237,7 @@ p {
 /*footer*/
 footer {
     background-color: #009B4D;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
     position: relative;
 }
 
