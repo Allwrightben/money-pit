@@ -78,13 +78,16 @@ nav {
     right: 0;
     flex-shrink: 0;
 }
+nav ul {
+    width: 100%;
+}
 
 /* Nav toggle */
-.nav-toggle:checked~nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
-.nav-toggle {
+#nav-toggle {
     display: none;
 }
 
