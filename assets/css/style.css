@@ -153,15 +153,14 @@ main {
 }
 /* History page */
 .history-heading {
-    padding-top: 100px;
+    padding-top: 150px;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight:900;
+    font-size: 1.8rem;
+    height: fit-content;
     text-transform: uppercase;
-    background: url("../images/digging.jpg");
-    max-width: 900px;
-    color: ivory;
+    background: url("../images/wideisland.jpg") no-repeat center center/cover;    
+    color: ivory;    
 }
 
 .history-sections {
