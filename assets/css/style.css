@@ -80,6 +80,7 @@ nav {
 }
 nav ul {
     width: 100%;
+    background: #009B4D;
 }
 
 /* Nav toggle */
@@ -169,7 +170,9 @@ main {
     border-radius: 5px;
     background-color: #009B4D;
     border: 1px solid #009B4D;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hisimg {
@@ -349,6 +352,26 @@ i {
         display: flex;
         align-items: center;
         padding-top: 10px;
+    }
+
+    .history-sections {        
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hisimg {
+        width: 40%;
+    }
+
+    .hisdate {
+        width: 20%;
+        height: fit-content;
+        font-size: 200%;
+    }
+
+    .histext {
+        width: 40%;
+        font-size: 150%;
     }
 
     /* to push signup section down on larger screens*/
