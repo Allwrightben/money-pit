@@ -347,6 +347,14 @@ i {
         justify-content: space-between;
     }
 
+    .intro {
+        width: 50%;
+    }
+
+    .history-invite {
+        width: 50% ;
+    }
+
     nav {
         display: flex;
         align-items: center;
