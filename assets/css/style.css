@@ -59,7 +59,7 @@ h1 {
 }
 
 .menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 1em;    
 }
 
 .active {
@@ -134,6 +134,7 @@ main {
     text-align: center;
     border: 1px solid #009B4D;
     margin: 5px;
+    border-radius: 5px;
     box-shadow: 2px 2px 3px #009B4D;
 }
 
@@ -322,7 +323,7 @@ i {
     }
 
     .nav-toggle-label {
-        display: none;
+        display: none;        
     }
 
     .logo {

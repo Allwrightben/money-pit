@@ -1,4 +1,4 @@
-text
+![A picture of oak island](assets/images/oak-island-aerial.webp)
 
 
 
@@ -19,18 +19,55 @@ Welcome to my website about the Oak Island Money Pit mystery! This README file p
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Credits] (#credits)
+- [Credits](#credits)
+
 
 ## Introduction
 
-This Oak Island Money Pit website will allow people to learn more about the Mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
+This Oak Island Money Pit website will allow people to learn more about the mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
 The visitors to this website can quickly find key historic milestones in the mystery and sign up to a newsletter for updates as they happen.
 
-The webiste cann be accessed by this link
+The webiste cann be accessed by this [Link](https://allwrightben.github.io/money-pit/)
 
 ## User Stories
+<h3>First Time Visitor Goals:</h3>
+<ul>
+<li>
+As a first time visitor, I want to easily understand the main purpose of the site and what it provides.
+</li>
+<li>
+As a first time visitor, I want to to easily navigate through the website
+</li>
+<li>
+As a first time visitor, I want to quickly find the information I'm looking for.
+</li>
+</ul>
 
+<h3>Returning Visitor Goals:</h3>
+<ul>
+<li>
+As a returning visitor, I want to see new information relatining to the mystery.
+</li>
+<li>
+As a returning visitor, I want to be able to see new updates clearly marked and easy to find.
+</li>
+<li>
+As a returning visitor, I want to find comunity links, So I can learn more about the Organisation and validity of the information presented.
+</li>
+<li>
+As a returning visitor, I want to continue to see the same clean layout that I liked about my first visit.
+</li>
+</ul>
 
+<h3>Frequent Visitor Goals:</h3>
+<ul>
+<li>
+As a frequent visitor, I want to check whether there are any recent discoveries with the Mystery to stay as up-to-date as possible.
+</li>
+<li>
+As a frequent visitor, I want to have options to be notified of any updates.
+</li>
+</ul>
 
 ## Features
 
@@ -72,7 +109,7 @@ Feel free to reach out if you have any questions or feedback! Thank you for visi
 
 ## Credits
 
-Image credits
+<h3>Image credits</h3>
 
 wideisland -
 https://wallpapercave.com/beach-wallpaper-1920x1080
