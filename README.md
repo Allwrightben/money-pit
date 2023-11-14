@@ -6,7 +6,7 @@
 
 ## Overview
 
-Welcome to my website about the Oak Island Money Pit mystery! This README file provides essential information about the website, its purpose, and how to get started.
+<p>Welcome to my website about the Oak Island Money Pit mystery! This README file provides essential information about the website, its purpose, and how to get started.</p>
 
 ## Table of Contents
 
@@ -24,8 +24,8 @@ Welcome to my website about the Oak Island Money Pit mystery! This README file p
 
 ## Introduction
 
-This Oak Island Money Pit website will allow people to learn more about the mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
-The visitors to this website can quickly find key historic milestones in the mystery and sign up to a newsletter for updates as they happen.
+<p>This Oak Island Money Pit website will allow people to learn more about the mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
+The visitors to this website can quickly find key historic milestones in the mystery and sign up to a newsletter for updates as they happen.</p>
 
 The webiste cann be accessed by this [Link](https://allwrightben.github.io/money-pit/)
 
@@ -33,48 +33,61 @@ The webiste cann be accessed by this [Link](https://allwrightben.github.io/money
 <h3>First Time Visitor Goals:</h3>
 <ul>
 <li>
-As a first time visitor, I want to easily understand the main purpose of the site and what it provides.
+<p>As a first time visitor, I want to easily understand the main purpose of the site and what it provides.</p>
 </li>
 <li>
-As a first time visitor, I want to to easily navigate through the website
+<p>As a first time visitor, I want to to easily navigate through the website</p>
 </li>
 <li>
-As a first time visitor, I want to quickly find the information I'm looking for.
+<p>As a first time visitor, I want to quickly find the information I'm looking for.</p>
 </li>
 </ul>
 
 <h3>Returning Visitor Goals:</h3>
 <ul>
 <li>
-As a returning visitor, I want to see new information relatining to the mystery.
+<p>As a returning visitor, I want to see new information relatining to the mystery.</p>
 </li>
 <li>
-As a returning visitor, I want to be able to see new updates clearly marked and easy to find.
+<p>As a returning visitor, I want to be able to see new updates clearly marked and easy to find.</p>
 </li>
 <li>
-As a returning visitor, I want to find comunity links, So I can learn more about the Organisation and validity of the information presented.
+<p>As a returning visitor, I want to find comunity links, So I can learn more about the Organisation and validity of the information presented.</p>
 </li>
 <li>
-As a returning visitor, I want to continue to see the same clean layout that I liked about my first visit.
+<p>As a returning visitor, I want to continue to see the same clean layout that I liked about my first visit.</p>
 </li>
 </ul>
 
 <h3>Frequent Visitor Goals:</h3>
 <ul>
 <li>
-As a frequent visitor, I want to check whether there are any recent discoveries with the Mystery to stay as up-to-date as possible.
+<p> As a frequent visitor, I want to check whether there are any recent discoveries with the Mystery to stay as up-to-date as possible.</p>
 </li>
 <li>
-As a frequent visitor, I want to have options to be notified of any updates.
+<p>As a frequent visitor, I want to have options to be notified of any updates.</p>
 </li>
 </ul>
 
 ## Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- ...
+<h3>Navbar:</h3>
+
+- Navigation
+  - Positioned at the top of the page.
+  - Contains Website name on the left side.
+  - Contains navigation links on the right side.
+    - HOME - Leads to the home page where they can learn about the mystery
+    - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
+    - SIGN UP - Leads to the sign up page where users can sign up to the news letter to be notified of updates on the mystery.
+  - The links have animated Hover effect  
+  - The navigation is clear and easy to understand for the user. ![Picture of Navbar](assets/images/README-images/navbar.png)
+- Item 2
+  - Subitem 1
+    - Sub-subitem 1
+    - Sub-subitem 2
+  - Subitem 2
+
 
 ## Usage
 
