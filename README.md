@@ -80,12 +80,23 @@ The webiste cann be accessed by this [Link](https://allwrightben.github.io/money
     - HOME - Leads to the home page where they can learn about the mystery
     - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
     - SIGN UP - Leads to the sign up page where users can sign up to the news letter to be notified of updates on the mystery.
-  - The links have animated Hover effect  
+  - The links have animated hover effect  
   - The navigation is clear and easy to understand for the user. ![Picture of Navbar](assets/images/README-images/navbar.png)
-- Item 2
-  - Subitem 1
-    - Sub-subitem 1
-    - Sub-subitem 2
+  - The navigation bar is responsive
+    - On tablets the the navigation bar makes better use of the space available on a smaller for a nicer looking user experience. 
+    ![Picture of Navbar for tablets](assets/images/README-images/navbar-tablet.png)
+    - On mobile devices:
+        - Navigation bar will feature logo on the left and hamburger menu on the right. 
+        ![Picture of Navbar for mobile devices  ](assets/images/README-images/navbar-mobile-wide.png)
+        - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience. 
+        ![Picture of Navbar for mobile devices  ](assets/images/README-images/navbar-dropdown.png)
+- <h3>Home Page</h3>
+
+  - Represent
+    - The main purpose of the webiste.
+    - Description of the topic the website was made for.
+    - A questions to fuel user interest in the mystery.
+    - invites to learn more about the history and to sign up to a news letter.
   - Subitem 2
 
 
