@@ -12,9 +12,6 @@
 
 - [Introduction](#introduction)
 - [User Stories](#user-stories)
-- [Features](#features)
-- [Usage](#usage)
-- [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -96,7 +93,7 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - The main purpose of the website.
     - Description of the topic the website was made for.
     - A question to fuel user interest in the mystery.
-    - invites to learn more about the history and to sign up to a newsletter.
+    - invites to learn more about the history and to sign up for a newsletter.
         
   - Hero Section
     - Hero section has a fixed background image of Oak Island.
@@ -113,7 +110,8 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
   - Footer
     - Footer contains social media links that open in a new window.
   ![picture of the footer ](assets/images/README-images/footer.png)
-  - FOOTER links will have a On-hover feature XXXXXXXXX
+    - Footer social media links will have an On-hover feedback feature.
+    ![picture of the footer ](assets/images/README-images/footerhover.png)
     
 - <h3>History Page</h3>
 
@@ -134,21 +132,11 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - Phone number is optional.
     ![picture of one of the signup page](assets/images/README-images/signupform.png)
     - Also features a response page.
-    ![picture of one of the signup response page](assets/images/README-images/thankyou.png)
-    - Response page thanks the user and advises we will be in touch. The response page also allows the user to stay on the website, and to go back to continue browsing.
-
-
-## Usage
-
-[Provide instructions on how to use your website. This can include user guides, examples, or any other relevant information.]
-
-## Installation
-
-[If applicable, provide instructions on how to install or set up your website locally. Include dependencies and any configuration steps.]
+    ![picture of one of the signup response page](assets/images/README-images/submit10.png)
+    - Response page thanks the user and advises we will be in touch. 
+    - The response page will also take the user back to the main page so they can continue browsing.
 
 ## Technologies Used
-
-[List the key technologies and frameworks used in your project.]
 
 - [Technology 1]
 - [Technology 2]
@@ -171,19 +159,26 @@ Feel free to reach out if you have any questions or feedback! Thank you for visi
 
 ## Credits
 
-<h3>Image credits</h3>
+- <h3>Inspiration</h3>
 
-wideisland -
-https://wallpapercave.com/beach-wallpaper-1920x1080
+  - The Love Running project gave me a lot of inspiration, particularly around
+  the Footer and signup form code.
+  - My mentors Alex and particularly Juliia have been amazing :)
 
-oak-island-discovery
-dig -
-https://www.oakislandmoneypit.com/
+- <h3>Image credits</h3>
 
-laginabrothers
-laginabrothers2
-partners - 
-https://www.history.com/shows/the-curse-of-oak-island/articles/what-is-the-history-of-oak-island
+  - https://wallpapercave.com
+    - wideisland
+  - https://www.oakislandmoneypit.com  
+    - oak-island-discovery
+    - dig
+  - https://www.history.com/shows/the-curse-of-oak-island/articles/what-is-the-history-of-oak-island
+    - laginabrothers
+    - laginabrothers2
+    - partners
+  - https://www.oakislandtreasure.co.uk/research-documents/excavations/triton-alliance-stock-certificate/
+    - license
+  
 
-license - 
-https://www.oakislandtreasure.co.uk/research-documents/excavations/triton-alliance-stock-certificate/
+
+

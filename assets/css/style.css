@@ -1,5 +1,5 @@
 /* Google font import*/
-@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@300&family=Nosifer&family=Oswald:wght@200;300;400;500;600;700&family=Snowburst+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Blaka+Ink&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@300&family=Nosifer&family=Oswald:wght@200;300;400;500;600;700&family=Snowburst+One&display=swap');
 
 
 /* Asterisk wild card selector to overide default styles */
@@ -144,9 +144,11 @@ main {
 
 .roosevelt {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    color: darkgreen;
 }
 
 /* History page */
@@ -177,6 +179,7 @@ main {
     object-fit: cover;
     padding: 1%;
     color: ivory;
+    text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -202,10 +205,6 @@ main {
 img {
     max-width: 100% !important;
     object-fit: cover !important;
-}
-
-p {
-    text-align: center;
 }
 
 /* signup page and form */
