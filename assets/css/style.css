@@ -123,7 +123,9 @@ main {
     background-color: ivory;
 }
 
-.intro, .history-invite {
+.intro,
+.history-invite,
+.myths {
     text-align: center;
     border: 1px solid #009B4D;
     margin: 5px;
@@ -159,15 +161,6 @@ main {
     color: ivory;
 }
 
-.myths {
-    text-align: center;
-    border: 1px solid #009B4D;
-    margin: 5px;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px #009B4D;
-}
-
 .history-sections {
     width: 95%;
     margin: 5px auto;
@@ -184,6 +177,7 @@ main {
     object-fit: cover;
     padding: 1%;
     color: ivory;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .hisdate {
@@ -256,11 +250,11 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding: 20px 0;    
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    color: #009B4D;    
+    color: #009B4D;
 }
 
 /* burger menu styles*/
@@ -349,7 +343,7 @@ i {
     }
 
     .social-networks a:hover {
-        border-bottom: 2px solid ivory;                          
+        border-bottom: 2px solid ivory;
     }
 
     .intro-signup {
