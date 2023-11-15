@@ -123,18 +123,11 @@ main {
     background-color: ivory;
 }
 
-.intro {
+.intro, .history-invite {
     text-align: center;
     border: 1px solid #009B4D;
     margin: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px #009B4D;
-}
-
-.history-invite {
-    text-align: center;
-    border: 1px solid #009B4D;
-    margin: 5px;
+    padding: 1em;
     border-radius: 5px;
     box-shadow: 2px 2px 3px #009B4D;
 }
