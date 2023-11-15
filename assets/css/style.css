@@ -247,11 +247,11 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0;    
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    color: #009B4D;
+    color: #009B4D;    
 }
 
 /* burger menu styles*/
@@ -295,6 +295,7 @@ i {
     .join-button:hover {
         color: #009B4D;
         background-color: ivory;
+        cursor: pointer;
     }
 
     nav {
@@ -336,6 +337,10 @@ i {
     .menu a:hover {
         border-bottom: 1px solid ivory;
         border-top: 1px solid ivory;
+    }
+
+    .social-networks a:hover {
+        border-bottom: 2px solid ivory;                          
     }
 
     .intro-signup {
