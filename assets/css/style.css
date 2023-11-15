@@ -159,6 +159,15 @@ main {
     color: ivory;
 }
 
+.myths {
+    text-align: center;
+    border: 1px solid #009B4D;
+    margin: 5px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #009B4D;
+}
+
 .history-sections {
     width: 95%;
     margin: 5px auto;
@@ -365,6 +374,7 @@ i {
     .history-sections {
         flex-direction: row;
         align-items: center;
+        margin-bottom: 2em;
     }
 
     .hisimg {
@@ -383,6 +393,8 @@ i {
     .histext {
         width: 40%;
         font-size: 150%;
+        margin-right: 0.5em;
+        padding: 0.5em;
     }
 
     /* to push signup section down on larger screens*/

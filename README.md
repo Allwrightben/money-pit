@@ -113,6 +113,7 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
   - Footer
     - Footer contains social media links that open in a new window.
   ![picture of the footer ](assets/images/README-images/footer.png)
+  - FOOTER links will have a On-hover feature XXXXXXXXX
     
 - <h3>History Page</h3>
 
