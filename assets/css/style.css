@@ -59,7 +59,7 @@ h1 {
 }
 
 .menu>li {
-    margin-bottom: 1em;    
+    margin-bottom: 1em;
 }
 
 .active {
@@ -72,15 +72,16 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
     display: none;
     top: 100%;
     right: 0;
     flex-shrink: 0;
+    background: #009B4D;
 }
+
 nav ul {
     width: 100%;
-    background: #009B4D;
+    margin-left: 2em;
 }
 
 /* Nav toggle */
@@ -110,7 +111,7 @@ main {
 /* main image styles*/
 .mainimage {
     height: 600px;
-    width: 100%;    
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -152,6 +153,7 @@ main {
     justify-content: center;
     margin: 5px;
 }
+
 /* History page */
 .history-heading {
     padding-top: 150px;
@@ -160,8 +162,8 @@ main {
     font-size: 1.8rem;
     height: fit-content;
     text-transform: uppercase;
-    background: url("../images/wideisland.jpg") no-repeat center center/cover;    
-    color: ivory;    
+    background: url("../images/wideisland.jpg") no-repeat center center/cover;
+    color: ivory;
 }
 
 .history-sections {
@@ -179,7 +181,7 @@ main {
     width: 100%;
     object-fit: cover;
     padding: 1%;
-    color: ivory;    
+    color: ivory;
 }
 
 .hisdate {
@@ -193,11 +195,11 @@ main {
 
 .histext {
     text-align: center;
-        border: 1px solid #009B4D;
-        margin: 5px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 3px #009B4D;
-        background-color: ivory;
+    border: 1px solid #009B4D;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #009B4D;
+    background-color: ivory;
 }
 
 /* mentor helped with the below code to fix overflow issue*/
@@ -246,7 +248,7 @@ p {
 /*footer*/
 footer {
     background-color: #009B4D;
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
     position: relative;
 }
 
@@ -323,7 +325,7 @@ i {
     }
 
     .nav-toggle-label {
-        display: none;        
+        display: none;
     }
 
     .logo {
@@ -353,7 +355,7 @@ i {
     }
 
     .history-invite {
-        width: 50% ;
+        width: 50%;
     }
 
     nav {
@@ -362,13 +364,13 @@ i {
         padding-top: 10px;
     }
 
-    .history-sections {        
+    .history-sections {
         flex-direction: row;
-        align-items: center;   
+        align-items: center;
     }
 
     .hisimg {
-        max-width: 40%; 
+        max-width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: center;

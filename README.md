@@ -1,4 +1,4 @@
-![A picture of oak island](assets/images/oak-island-aerial.webp)
+![A picture of Oak Island](assets/images/oak-island-aerial.webp)
 
 
 
@@ -25,34 +25,34 @@
 ## Introduction
 
 <p>This Oak Island Money Pit website will allow people to learn more about the mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
-The visitors to this website can quickly find key historic milestones in the mystery and sign up to a newsletter for updates as they happen.</p>
+The visitors to this website can quickly find key historic milestones in the mystery and sign up for a newsletter for updates as they happen.</p>
 
-The webiste cann be accessed by this [Link](https://allwrightben.github.io/money-pit/)
+The website can be accessed by this [Link](https://allwrightben.github.io/money-pit/)
 
 ## User Stories
 <h3>First Time Visitor Goals:</h3>
 <ul>
 <li>
-<p>As a first time visitor, I want to easily understand the main purpose of the site and what it provides.</p>
+<p>As a first-time visitor, I want to easily understand the main purpose of the site and what it provides.</p>
 </li>
 <li>
-<p>As a first time visitor, I want to to easily navigate through the website</p>
+<p>As a first-time visitor, I want to easily navigate through the website</p>
 </li>
 <li>
-<p>As a first time visitor, I want to quickly find the information I'm looking for.</p>
+<p>As a first-time visitor, I want to quickly find the information I'm looking for.</p>
 </li>
 </ul>
 
 <h3>Returning Visitor Goals:</h3>
 <ul>
 <li>
-<p>As a returning visitor, I want to see new information relatining to the mystery.</p>
+<p>As a returning visitor, I want to see new information relating to the mystery.</p>
 </li>
 <li>
-<p>As a returning visitor, I want to be able to see new updates clearly marked and easy to find.</p>
+<p>As a returning visitor, I want to be able to see new updates and to find them easily.</p>
 </li>
 <li>
-<p>As a returning visitor, I want to find comunity links, So I can learn more about the Organisation and validity of the information presented.</p>
+<p>As a returning visitor, I want to find community links, So I can learn more about the Organisation and the validity of the information presented.</p>
 </li>
 <li>
 <p>As a returning visitor, I want to continue to see the same clean layout that I liked about my first visit.</p>
@@ -74,55 +74,53 @@ The webiste cann be accessed by this [Link](https://allwrightben.github.io/money
 <h3>Navbar:</h3>
 
 - Navigation
-  - Positioned at the top of the page.
-  - Contains Website name on the left side.
+  - Positioned at the top of the page.Contains the Website name on the left side.
   - Contains navigation links on the right side.
     - HOME - Leads to the home page where they can learn about the mystery
     - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
-    - SIGN UP - Leads to the sign up page where users can sign up to the news letter to be notified of updates on the mystery.
-  - The links have animated hover effect  
+    - SIGN UP - Leads to the signup page where users can sign up for the newsletter to be notified of updates on the mystery.
+  - The links have an animated hover effect  
   - The navigation is clear and easy to understand for the user. 
   ![Picture of Navbar](assets/images/README-images/navbar.png)
-  - The navigation bar is responsive
-    - On tablets the the navigation bar makes better use of the space available on a smaller for a nicer looking user experience. 
+  - The navigation bar is responsive, on tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience. 
     ![Picture of Navbar for tablets](assets/images/README-images/navbar-tablet.png)
-    - On mobile devices:
-        - Navigation bar will feature logo on the left and hamburger menu on the right. 
-        ![Picture of Navbar for mobile devices](assets/images/README-images/navbar-mobile-wide.png)
-        - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience. 
-        ![Picture of Navbar dropdown menu](assets/images/README-images/navbar-dropdown.png)
+  - On mobile devices:
+      - Navigation bar will feature a logo on the left and a hamburger menu on the right. 
+      ![Picture of Navbar for mobile devices](assets/images/README-images/navbar-mobile-wide.png)
+      - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience. 
+      ![Picture of Navbar dropdown menu](assets/images/README-images/navbar-dropdown.png)
 
 - <h3>Home Page</h3>
 
   - Represent
-    - The main purpose of the webiste.
+    - The main purpose of the website.
     - Description of the topic the website was made for.
     - A question to fuel user interest in the mystery.
-    - invites to learn more about the history and to sign up to a news letter.
+    - invites to learn more about the history and to sign up to a newsletter.
         
   - Hero Section
-    - Hero section has a fixed backgorund image of Oak Island.
-    - Hero section has a block section below that consists of two card of information:
+    - Hero section has a fixed background image of Oak Island.
+    - Hero section has a block section below that consists of two cards of information:
       - One, with information relevant to the topic of the website as an overview.
-      - Two, with a "did you know" question to inerest the user. The second card also features calls to action invites to learn more about the history or sign up to a news letter. 
+      - Two, with a "did you know" question to interest the user. The second card also features calls to action invites to learn more about the history or sign up for a newsletter. 
       ![picture of the top of the main page and hero image](assets/images/README-images/homepage-top.png)
 
   - Under the information card features:
-    - An image from the history of Oak Island relevant to the second card.
-    - A google map to show the user where in the world the island is located.
+    - An image from the history of Oak Island is relevant to the second card.
+    - A Google map to show the user where in the world the island is located.
     ![picture of the bottom of the main page ](assets/images/README-images/homepage-bottom.png)
 
   - Footer
-    - Footer contains social media link that open in a new page.
+    - Footer contains social media links that open in a new window.
   ![picture of the footer ](assets/images/README-images/footer.png)
     
 - <h3>History Page</h3>
 
   - History page contains:
-    - A chronological list of milestone events relation the the Oak Island Money Pit mystery.
-    - each section is displayed on a card with an image on the left, the date prominantly in the center, and information on the right.
+    - A chronological list of milestone events relating the the Oak Island Money Pit mystery.
+    - each section is displayed on a card with an image on the left, the date prominently in the center, and information on the right.
     ![picture of one of the history sections](assets/images/README-images/history-sections.png)
-    - The History sections are also responsive for tablet.
+    - The History sections are also responsive for tablets.
     ![picture of one of the history sections](assets/images/README-images/history-section-tablet.png)
     - The History sections are also responsive for mobile.
     ![picture of one of the history sections](assets/images/README-images/history-section-mobile.png)
@@ -130,15 +128,13 @@ The webiste cann be accessed by this [Link](https://allwrightben.github.io/money
 - <h3>Sign Up Page</h3> 
 
   - Sign up page contains:
-    - A web form to sign up to a newsletter.
+    - A web form to sign up for a newsletter.
     - First name, Last name and email are required fields.
     - Phone number is optional.
-    ![picture of one of the sign up page](assets/images/README-images/signupform.png)
+    ![picture of one of the signup page](assets/images/README-images/signupform.png)
     - Also features a response page.
-    ![picture of one of the sign up response page](assets/images/README-images/thankyou.png)
-    - Response page thanks the user and advises we will be in touch.
-    - Response page also allows the user to stay on the website, and to go back to continue browsing.
-
+    ![picture of one of the signup response page](assets/images/README-images/thankyou.png)
+    - Response page thanks the user and advises we will be in touch. The response page also allows the user to stay on the website, and to go back to continue browsing.
 
 
 ## Usage
