@@ -149,6 +149,15 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 
 ## Testing
 
+In order to confirm the correct functionality, responsivness and appearance:
+- The website was tested on Chrome and Edge web browsers.
+- The website's responsiveness was tested using Chromes browser dev tools.
+- The website's responsiveness was tested using Media Genesis Responsive design checker
+https://responsivedesignchecker.com/
+![picture of one of the signup response page](assets/images/README-images/responsivecheck.png)
+
+
+
 
 ## Contact
 
