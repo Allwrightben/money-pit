@@ -65,6 +65,13 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 </li>
 </ul>
 
+<h3>Target Audience is:</h3>
+
+- Interested in history.
+- Interested in unsolved mysteries.
+- Interested in treasure hunting.
+- Interested in the Oak Island.
+
 ## Features
 
 <h3>Navbar:</h3>
@@ -151,19 +158,21 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 
 In order to confirm the correct functionality, responsivness and appearance:
 - The website was tested on Chrome and Edge web browsers.
-- The website's responsiveness was tested using Chromes browser dev tools.
+- The website's responsiveness was tested using Chrome's browser dev tools.
 - The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
 ![picture of one of the signup response page](assets/images/README-images/responsivecheck.png)
+- All web pages have passed HTML and CSS validity checks with W3C checkers.
 
 
 
 
 ## Contact
 
-[Provide information on how users and developers can get in touch with you. This can include email addresses, social media profiles, or links to a contact form.]
+Ben Allwright<br>
+ben.allwright@learningpeople.co.uk
 
-Feel free to reach out if you have any questions or feedback! Thank you for visiting [Your Website Name].
+Feel free to reach out if you have any questions or feedback! Thank you for visiting<br> https://allwrightben.github.io/money-pit/index.html
 
 ## Credits
 
