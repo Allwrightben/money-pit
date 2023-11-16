@@ -58,10 +58,6 @@ h1 {
     padding: 1px 0;
 }
 
-.menu>li {
-    margin-bottom: 1em;
-}
-
 .active {
     border-bottom: 1px solid ivory;
     border-top: 1px solid ivory;
@@ -82,6 +78,14 @@ nav {
 nav ul {
     width: 100%;
     margin-left: 2em;
+}
+
+.menu>li {
+    padding-top: 1em;
+}
+
+.menu>li:last-child {
+    padding-bottom: 1.5em;
 }
 
 /* Nav toggle */
@@ -219,6 +223,7 @@ img {
 .signup-form {
     background-color: rgba(60, 60, 60, 0.6);
     padding: 10px;
+    margin-bottom: 5em;
 }
 
 .signup-form>h3 {
@@ -238,6 +243,10 @@ img {
     font-size: 110%;
     background-color: #009B4D;
     color: ivory;
+}
+
+iframe {
+    width: 100%;
 }
 
 /*footer*/
@@ -281,7 +290,8 @@ i {
 
     .signup-form {
         max-width: 500px;
-        position: absolute;
+        margin-top: 5em !important;
+        margin-bottom: 5em !important;
         left: 15%;
         top: 120px;
     }
@@ -315,7 +325,7 @@ i {
     }
 
     .menu>li {
-        padding-left: 2rem;
+        padding: 1em 0 1em 2em;
         display: flex;
         align-items: center;
     }
@@ -361,7 +371,6 @@ i {
     nav {
         display: flex;
         align-items: center;
-        padding-top: 10px;
     }
 
     .history-sections {
