@@ -84,17 +84,17 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - SIGN UP - Leads to the signup page where users can sign up for the newsletter to be notified of updates on the mystery.
   - The links have an animated hover effect  
   - The navigation is clear and easy to understand for the user. 
-  ![Picture of Navbar](assets/images/README-images/navbar.png)
+  ![Picture of Navbar](documentation/navbar.png)
   - The navigation bar is responsive, on tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience. 
-    ![Picture of Navbar for tablets](assets/images/README-images/navbar-tablet.png)
+    ![Picture of Navbar for tablets](documentation/navbar-tablet.png)
   - On mobile devices:
       - Navigation bar will feature a logo on the left and a hamburger menu on the right. 
-      ![Picture of Navbar for mobile devices](assets/images/README-images/navbar-mobile-wide.png)
+      ![Picture of Navbar for mobile devices](documentation/navbar-mobile-wide.png)
       - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience. 
-      ![Picture of Navbar dropdown menu](assets/images/README-images/navbar-dropdown.png)
+      ![Picture of Navbar dropdown menu](documentation/navbar-dropdown.png)
 
 - <h3>Home Page</h3>
-![picture of the top of the main page and hero image](assets/images/README-images/mainresponsive.png)
+![picture of the top of the main page and hero image](documentation/mainresponsive.png)
 
   - Represent
     - The main purpose of the website.
@@ -107,41 +107,41 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - Hero section has a block section below that consists of two cards of information:
       - One, with information relevant to the topic of the website as an overview.
       - Two, with a "did you know" question to interest the user. The second card also features calls to action invites to learn more about the history or sign up for a newsletter. 
-      ![picture of the top of the main page and hero image](assets/images/README-images/homepage-top.png)
+      ![picture of the top of the main page and hero image](documentation/homepage-top.png)
 
   - Under the information card features:
     - An image from the history of Oak Island is relevant to the second card.
     - A Google map to show the user where in the world the island is located.
-    ![picture of the bottom of the main page ](assets/images/README-images/homepage-bottom.png)
+    ![picture of the bottom of the main page ](documentation/homepage-bottom.png)
 
   - Footer
     - Footer contains social media links that open in a new window.
-  ![picture of the footer ](assets/images/README-images/footer.png)
+  ![picture of the footer ](documentation/footer.png)
     - Footer social media links will have an On-hover feedback feature.
-    ![picture of the footer ](assets/images/README-images/footerhover.png)
+    ![picture of the footer ](documentation/footerhover.png)
     
 - <h3>History Page</h3>
-![picture of the top of the main page and hero image](assets/images/README-images/hisresponsive.png)
+![picture of the top of the main page and hero image](documentation/hisresponsive.png)
 
   - History page contains:
     - A chronological list of milestone events relating the the Oak Island Money Pit mystery.
     - each section is displayed on a card with an image on the left, the date prominently in the center, and information on the right.
-    ![picture of one of the history sections](assets/images/README-images/history-sections.png)
+    ![picture of one of the history sections](documentation/history-sections.png)
     - The History sections are also responsive for tablets.
-    ![picture of one of the history sections](assets/images/README-images/history-section-tablet.png)
+    ![picture of one of the history sections](documentation/history-section-tablet.png)
     - The History sections are also responsive for mobile.
-    ![picture of one of the history sections](assets/images/README-images/history-section-mobile.png)
+    ![picture of one of the history sections](documentation/history-section-mobile.png)
 
 - <h3>Sign Up Page</h3>
-![picture of the top of the main page and hero image](assets/images/README-images/signresponsive.png)
+![picture of the top of the main page and hero image](documentation/signresponsive.png)
 
   - Sign up page contains:
     - A web form to sign up for a newsletter.
     - First name, Last name and email are required fields.
     - Phone number is optional.
-    ![picture of one of the signup page](assets/images/README-images/signupform.png)
+    ![picture of one of the signup page](documentation/signupform.png)
     - Also features a response page.
-    ![picture of one of the signup response page](assets/images/README-images/submit10.png)
+    ![picture of one of the signup response page](documentation/submit10.png)
     - Response page thanks the user and advises we will be in touch. 
     - The response page will also take the user back to the main page so they can continue browsing.
 
@@ -161,7 +161,7 @@ In order to confirm the correct functionality, responsivness and appearance:
 - The website's responsiveness was tested using Chrome's browser dev tools.
 - The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
-![picture of one of the signup response page](assets/images/README-images/responsivecheck.png)
+![picture of one of the signup response page](documentation/responsivecheck.png)
 - All web pages have passed HTML and CSS validity checks with W3C checkers.
 
 
