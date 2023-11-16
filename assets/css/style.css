@@ -286,6 +286,10 @@ i {
         flex-direction: column;
     }
 
+    .menu>li:last-child {
+        padding-bottom: 1em;
+    }
+
     .signup {
         padding-top: 105px;
         background-position: center;

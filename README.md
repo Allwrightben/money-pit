@@ -1,29 +1,15 @@
-![A picture of Oak Island](assets/images/oak-island-aerial.webp)
-
-
-
-
+![picture of the top of the main page and hero image](documentation/mainresponsive.png)
 
 ## Overview
 
 <p>Welcome to my website about the Oak Island Money Pit mystery! This README file provides essential information about the website, its purpose, and how to get started.</p>
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [User Stories](#user-stories)
-- [Technologies Used](#technologies-used)
-- [Testing](#testing)
-- [Contact](#contact)
-- [Credits](#credits)
-
+The website can be accessed by this [Link](https://allwrightben.github.io/money-pit/)
 
 ## Introduction
 
 <p>This Oak Island Money Pit website will allow people to learn more about the mystery of Oak Island and why it has captivated the imaginations of explorers and historians alike for over two centuries. 
 The visitors to this website can quickly find key historic milestones in the mystery and sign up for a newsletter for updates as they happen.</p>
-
-The website can be accessed by this [Link](https://allwrightben.github.io/money-pit/)
 
 ## User Stories
 <h3>First Time Visitor Goals:</h3>
@@ -65,12 +51,12 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 </li>
 </ul>
 
-<h3>Target Audience is:</h3>
+<h3>Target Audience Is:</h3>
 
 - Interested in history.
 - Interested in unsolved mysteries.
 - Interested in treasure hunting.
-- Interested in the Oak Island.
+- Interested in the Oak Island mystery.
 
 ## Features
 
@@ -83,15 +69,21 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
     - SIGN UP - Leads to the signup page where users can sign up for the newsletter to be notified of updates on the mystery.
   - The links have an animated hover effect  
-  - The navigation is clear and easy to understand for the user. 
-  ![Picture of Navbar](documentation/navbar.png)
-  - The navigation bar is responsive, on tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience. 
+  - The navigation is clear and easy to understand for the user.
+  
+    ![Picture of Navbar](documentation/navbar.png)
+  - The navigation bar is responsive, on tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience.
+
     ![Picture of Navbar for tablets](documentation/navbar-tablet.png)
+
   - On mobile devices:
-      - Navigation bar will feature a logo on the left and a hamburger menu on the right. 
-      ![Picture of Navbar for mobile devices](documentation/navbar-mobile-wide.png)
-      - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience. 
-      ![Picture of Navbar dropdown menu](documentation/navbar-dropdown.png)
+  - Navigation bar will feature a logo on the left and a hamburger menu on the right.
+
+    ![Picture of Navbar for mobile devices](documentation/navbar-mobile-wide.png)
+
+  - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience.
+  
+    ![Picture of Navbar dropdown menu](documentation/navbar-dropdown.png)
 
 - <h3>Home Page</h3>
 ![picture of the top of the main page and hero image](documentation/mainresponsive.png)
@@ -116,9 +108,12 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 
   - Footer
     - Footer contains social media links that open in a new window.
-  ![picture of the footer ](documentation/footer.png)
+
+      ![picture of the footer ](documentation/footer.png)
+
     - Footer social media links will have an On-hover feedback feature.
-    ![picture of the footer ](documentation/footerhover.png)
+
+      ![picture of the footer ](documentation/footerhover.png)
     
 - <h3>History Page</h3>
 ![picture of the top of the main page and hero image](documentation/hisresponsive.png)
@@ -126,11 +121,14 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
   - History page contains:
     - A chronological list of milestone events relating the the Oak Island Money Pit mystery.
     - each section is displayed on a card with an image on the left, the date prominently in the center, and information on the right.
-    ![picture of one of the history sections](documentation/history-sections.png)
+
+      ![picture of one of the history sections](documentation/history-sections.png)
     - The History sections are also responsive for tablets.
-    ![picture of one of the history sections](documentation/history-section-tablet.png)
+
+      ![picture of one of the history sections](documentation/history-section-tablet.png)
     - The History sections are also responsive for mobile.
-    ![picture of one of the history sections](documentation/history-section-mobile.png)
+
+      ![picture of one of the history sections](documentation/history-section-mobile.png)
 
 - <h3>Sign Up Page</h3>
 ![picture of the top of the main page and hero image](documentation/signresponsive.png)
@@ -139,33 +137,54 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - A web form to sign up for a newsletter.
     - First name, Last name and email are required fields.
     - Phone number is optional.
-    ![picture of one of the signup page](documentation/signupform.png)
+    
+      ![picture of one of the signup page](documentation/signupform.png)
     - Also features a response page.
-    ![picture of one of the signup response page](documentation/submit10.png)
+    
+      ![picture of one of the signup response page](documentation/submit10.png)
     - Response page thanks the user and advises we will be in touch. 
     - The response page will also take the user back to the main page so they can continue browsing.
 
 ## Technologies Used
 
-- HTML was used as the foundation of the site.
-- CSS - was used to add the styles and layout of the site.
-- CSS Flexbox - was used to arrange items symmetrically on the pages.
-- VSCode was used as the main tool to write and edit code.
-- Git was used for the version control of the website.
-- GitHub was used to host the code of the website.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) was used to arrange items symmetrically on the pages.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
 
 ## Testing
 
 In order to confirm the correct functionality, responsivness and appearance:
 - The website was tested on Chrome and Edge web browsers.
 - The website's responsiveness was tested using Chrome's browser dev tools.
-- The website's responsiveness was tested using Media Genesis Responsive design checker
+  - The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
-![picture of one of the signup response page](documentation/responsivecheck.png)
-- All web pages have passed HTML and CSS validity checks with W3C checkers.
+![picture of the responisveness checker](documentation/responsivecheck.png)
 
+- All HTML files have passed HTML validity checks with W3C.
+  - Main Page
+    ![Picture of main page HTML pass](documentation/htmlpass.png)
+  - History Page
+    ![Picture of history page HTML pass](documentation/hispass.png)
+  - Signup Page
+    ![Picture of signup page HTML pass](documentation/signpass.png)
+  - Submit Page
+    ![Picture of submit page HTML pass](documentation/subpass.png)
+  - The CSS file has also passed CSS validity check with W3C.
+    ![Picture of CSS File page pass](documentation/csspass.png)
 
+## Deployment
 
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Allwrightben/money-pit), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link can be found [here](https://allwrightben.github.io/money-pit/)
 
 ## Contact
 
