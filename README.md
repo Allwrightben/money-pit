@@ -13,8 +13,7 @@
 - [Introduction](#introduction)
 - [User Stories](#user-stories)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Testing](#testing)
 - [Contact](#contact)
 - [Credits](#credits)
 
@@ -88,6 +87,7 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
       ![Picture of Navbar dropdown menu](assets/images/README-images/navbar-dropdown.png)
 
 - <h3>Home Page</h3>
+![picture of the top of the main page and hero image](assets/images/README-images/mainresponsive.png)
 
   - Represent
     - The main purpose of the website.
@@ -114,6 +114,7 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     ![picture of the footer ](assets/images/README-images/footerhover.png)
     
 - <h3>History Page</h3>
+![picture of the top of the main page and hero image](assets/images/README-images/hisresponsive.png)
 
   - History page contains:
     - A chronological list of milestone events relating the the Oak Island Money Pit mystery.
@@ -124,7 +125,8 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
     - The History sections are also responsive for mobile.
     ![picture of one of the history sections](assets/images/README-images/history-section-mobile.png)
 
-- <h3>Sign Up Page</h3> 
+- <h3>Sign Up Page</h3>
+![picture of the top of the main page and hero image](assets/images/README-images/signresponsive.png)
 
   - Sign up page contains:
     - A web form to sign up for a newsletter.
@@ -138,18 +140,15 @@ The website can be accessed by this [Link](https://allwrightben.github.io/money-
 
 ## Technologies Used
 
-- [Technology 1]
-- [Technology 2]
-- [Technology 3]
-- ...
+- HTML was used as the foundation of the site.
+- CSS - was used to add the styles and layout of the site.
+- CSS Flexbox - was used to arrange items symmetrically on the pages.
+- VSCode was used as the main tool to write and edit code.
+- Git was used for the version control of the website.
+- GitHub was used to host the code of the website.
 
-## Contributing
+## Testing
 
-[Provide information for potential contributors. Include guidelines for submitting issues, feature requests, or pull requests.]
-
-## License
-
-[Specify the license under which your website is distributed. For example, MIT License, Apache License 2.0, etc.]
 
 ## Contact
 
