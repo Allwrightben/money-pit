@@ -206,17 +206,14 @@ Feel free to reach out if you have any questions or feedback! Thank you for visi
 
 - <h3>Image credits</h3>
 
-  - https://wallpapercave.com
-    - wideisland
+- all images on the website were sourced from the following places:
+
+  - https://wallpapercave.com  
   - https://www.oakislandmoneypit.com  
-    - oak-island-discovery
-    - dig
   - https://www.history.com/shows/the-curse-of-oak-island/articles/what-is-the-history-of-oak-island
-    - laginabrothers
-    - laginabrothers2
-    - partners
   - https://www.oakislandtreasure.co.uk/research-documents/excavations/triton-alliance-stock-certificate/
-    - license
+  - https://themaritimeexplorer.ca/2014/08/26/oak-island/
+  - https://www.bigflix.com/the-curse-of-oak-island-season-12-release-date/
   
 
 
