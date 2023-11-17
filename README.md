@@ -159,7 +159,21 @@ The visitors to this website can quickly find key historic milestones in the mys
 In order to confirm the correct functionality, responsivness and appearance:
 - The website was tested on Chrome and Edge web browsers.
 - The website's responsiveness was tested using Chrome's browser dev tools.
-  - The website's responsiveness was tested using Media Genesis Responsive design checker
+  - Chrome:
+  ![picture of the website being tested in Chrome](documentation/chrome1.png)
+  ![picture of the website being tested in Chrome](documentation/chrome2.png)
+  ![picture of the website being tested in Chrome](documentation/chrome3.png)
+  ![picture of the website being tested in Chrome](documentation/chrome4.png)
+  ![picture of the website being tested in Chrome](documentation/chrome5.png)
+
+  - Edge:
+  ![picture of the website being tested in Edge](documentation/edge1.png)
+  ![picture of the website being tested in Edge](documentation/edge2.png)
+  ![picture of the website being tested in Edge](documentation/edge3.png)
+  ![picture of the website being tested in Edge](documentation/edge4.png)
+  ![picture of the website being tested in Edge](documentation/edge5.png)
+
+- The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
 ![picture of the responisveness checker](documentation/responsivecheck.png)
 
