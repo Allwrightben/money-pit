@@ -13,44 +13,21 @@ The visitors to this website can quickly find key historic milestones in the mys
 
 ## User Stories
 <h3>First Time Visitor Goals:</h3>
-<ul>
-<li>
-<p>As a first-time visitor, I want to easily understand the main purpose of the site and what it provides.</p>
-</li>
-<li>
-<p>As a first-time visitor, I want to easily navigate through the website</p>
-</li>
-<li>
-<p>As a first-time visitor, I want to quickly find the information I'm looking for.</p>
-</li>
-</ul>
+
+- As a first-time visitor, I want to easily understand the main purpose of the site and what it provides.
+- As a first-time visitor, I want to easily navigate through the website.
+- As a first-time visitor, I want to quickly find the information I'm looking for.
 
 <h3>Returning Visitor Goals:</h3>
-<ul>
-<li>
-<p>As a returning visitor, I want to see new information relating to the mystery.</p>
-</li>
-<li>
-<p>As a returning visitor, I want to be able to see new updates and to find them easily.</p>
-</li>
-<li>
-<p>As a returning visitor, I want to find community links, So I can learn more about the Organisation and the validity of the information presented.</p>
-</li>
-<li>
-<p>As a returning visitor, I want to continue to see the same clean layout that I liked about my first visit.</p>
-</li>
-</ul>
+
+- As a returning visitor, I want to see new information relating to the mystery.
+- As a returning visitor, I want to be able to see new updates and to find them easily.
+- As a returning visitor, I want to find community links, So I can learn more about the organisation and the validity of the information presented.
 
 <h3>Frequent Visitor Goals:</h3>
-<ul>
-<li>
-<p> As a frequent visitor, I want to check whether there are any recent discoveries with the Mystery to stay as up-to-date as possible.</p>
-</li>
-<li>
-<p>As a frequent visitor, I want to have options to be notified of any updates.</p>
-</li>
-</ul>
 
+- As a frequent visitor, I want to check whether there are any recent discoveries with the mystery to stay as up-to-date as possible.
+- As a frequent visitor, I want to have options to be notified of any updates.
 <h3>Target Audience Is:</h3>
 
 - Interested in history.
@@ -63,21 +40,22 @@ The visitors to this website can quickly find key historic milestones in the mys
 <h3>Navbar:</h3>
 
 - Navigation
-  - Positioned at the top of the page.Contains the Website name on the left side.
+  - Positioned at the top of the page.
+  - Contains the website name on the left side.
   - Contains navigation links on the right side.
     - HOME - Leads to the home page where they can learn about the mystery
     - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
     - SIGN UP - Leads to the signup page where users can sign up for the newsletter to be notified of updates on the mystery.
-  - The links have an animated hover effect  
+  - The links have an animated hover effect. 
   - The navigation is clear and easy to understand for the user.
   
     ![Picture of Navbar](documentation/navbar.png)
-  - The navigation bar is responsive, on tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience.
+  - The navigation bar is responsive.
+  - On tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience.
 
     ![Picture of Navbar for tablets](documentation/navbar-tablet.png)
 
-  - On mobile devices:
-  - Navigation bar will feature a logo on the left and a hamburger menu on the right.
+  - On mobile devices navigation bar will feature a logo on the left and a hamburger menu on the right.
 
     ![Picture of Navbar for mobile devices](documentation/navbar-mobile-wide.png)
 
@@ -93,6 +71,8 @@ The visitors to this website can quickly find key historic milestones in the mys
     - Description of the topic the website was made for.
     - A question to fuel user interest in the mystery.
     - invites to learn more about the history and to sign up for a newsletter.
+      
+      ![picture of the entire main page](documentation/hometablet.png)
         
   - Hero Section
     - Hero section has a fixed background image of Oak Island.
@@ -135,15 +115,16 @@ The visitors to this website can quickly find key historic milestones in the mys
 
   - Sign up page contains:
     - A web form to sign up for a newsletter.
-    - First name, Last name and email are required fields.
+    - First name, Last name and Email are required fields.
     - Phone number is optional.
+    - The user can also choose how they would like to be contacted.
     
       ![picture of one of the signup page](documentation/signupform.png)
     - Also features a response page.
     
       ![picture of one of the signup response page](documentation/submit10.png)
     - Response page thanks the user and advises we will be in touch. 
-    - The response page will also take the user back to the main page so they can continue browsing.
+    - The response page will also take the user back to the main page after ten seconds so they can continue browsing.
 
 ## Technologies Used
 
@@ -156,9 +137,10 @@ The visitors to this website can quickly find key historic milestones in the mys
 
 ## Testing
 
+<h3>Compatability</h3>
+
 In order to confirm the correct functionality, responsivness and appearance:
-- The website was tested on Chrome and Edge web browsers.
-- The website's responsiveness was tested using Chrome's browser dev tools.
+- The website was tested on Chrome and Edge web browsers, using in-built dev tools.
   - Chrome:
   ![picture of the website being tested in Chrome](documentation/chrome1.png)
   ![picture of the website being tested in Chrome](documentation/chrome2.png)
@@ -173,9 +155,16 @@ In order to confirm the correct functionality, responsivness and appearance:
   ![picture of the website being tested in Edge](documentation/edge4.png)
   ![picture of the website being tested in Edge](documentation/edge5.png)
 
+- The website was also tested using the Chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?pli=1)
+  ![picture of responive viewer on main page](documentation/responsiveviewer2.png)
+  ![picture of responive viewer on history page](documentation/responsiveviewer1.png)
+  ![picture of responive viewer on signup page](documentation/responsiveviewer3.png) 
+
 - The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
 ![picture of the responisveness checker](documentation/responsivecheck.png)
+![picture of the responisveness checker](documentation/responsivecheck2.png)
+![picture of the responisveness checker](documentation/responsivecheck3.png)
 
 - All HTML files have passed HTML validity checks with W3C.
   - Main Page
