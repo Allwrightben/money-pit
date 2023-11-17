@@ -122,7 +122,7 @@ The visitors to this website can quickly find key historic milestones in the mys
       ![picture of one of the signup page](documentation/signupform.png)
     - Also features a response page.
     
-      ![picture of one of the signup response page](documentation/submit10.png)
+      ![picture of one of the signup response page](documentation/submitredirect.png)
     - Response page thanks the user and advises we will be in touch. 
     - The response page will also take the user back to the main page after ten seconds so they can continue browsing.
 
