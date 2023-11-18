@@ -213,7 +213,7 @@ img {
 
 /* signup page and form */
 .signup {
-    background-image: url("../images/forest.jpg");
+    background-image: url("../images/forest2.jpg");
     background-size: cover;
     padding: 100px 10% 0 10%;
     flex-grow: 1;
@@ -242,7 +242,7 @@ img {
     padding: 20px;
     font-size: 110%;
     background-color: #009B4D;
-    color: ivory;
+    color: white;
 }
 
 iframe {
@@ -345,7 +345,7 @@ i {
     .logo {
         font-size: 250%;
         margin: 0 0.5rem;
-    }    
+    }
 }
 
 /* Media query for laptops and larger (992px+) */
