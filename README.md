@@ -47,20 +47,14 @@ The visitors to this website can quickly find key historic milestones in the mys
     - HISTORY - Leads to the history page where they can learn about the history of Oak Island.
     - SIGN UP - Leads to the signup page where users can sign up for the newsletter to be notified of updates on the mystery.
   - The links have an animated hover effect. 
-  - The navigation is clear and easy to understand for the user.
-  
+  - The navigation is clear and easy to understand for the user.  
     ![Picture of Navbar](documentation/navbar.png)
   - The navigation bar is responsive.
   - On tablets the navigation bar makes better use of the space available on a smaller screen for a nicer-looking user experience.
-
-    ![Picture of Navbar for tablets](documentation/navbar-tablet.png)
-
+  ![Picture of Navbar for tablets](documentation/navbar-tablet.png)
   - On mobile devices navigation bar will feature a logo on the left and a hamburger menu on the right.
-
     ![Picture of Navbar for mobile devices](documentation/navbar-mobile-wide.png)
-
-  - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience.
-  
+  - When the hamburger menu is clicked, there is a dropdown menu, making for a more visually pleasing user experience.  
     ![Picture of Navbar dropdown menu](documentation/navbar-dropdown.png)
 
 - <h3>Home Page</h3>
@@ -70,8 +64,7 @@ The visitors to this website can quickly find key historic milestones in the mys
     - The main purpose of the website.
     - Description of the topic the website was made for.
     - A question to fuel user interest in the mystery.
-    - invites to learn more about the history and to sign up for a newsletter.
-      
+    - invites to learn more about the history and to sign up for a newsletter.      
       ![picture of the entire main page](documentation/hometablet.png)
         
   - Hero Section
@@ -85,15 +78,12 @@ The visitors to this website can quickly find key historic milestones in the mys
     - An image from the history of Oak Island is relevant to the second card.
     - A Google map to show the user where in the world the island is located.
     ![picture of the bottom of the main page ](documentation/homepage-bottom.png)
-
   - Footer
     - Footer contains social media links that open in a new window.
-
+    
       ![picture of the footer ](documentation/footer.png)
-
     - Footer social media links will have an On-hover feedback feature.
-
-      ![picture of the footer ](documentation/footerhover.png)
+    ![picture of the footer ](documentation/footerhover.png)
     
 - <h3>History Page</h3>
 ![picture of the top of the main page and hero image](documentation/hisresponsive.png)
@@ -101,13 +91,12 @@ The visitors to this website can quickly find key historic milestones in the mys
   - History page contains:
     - A chronological list of milestone events relating the the Oak Island Money Pit mystery.
     - each section is displayed on a card with an image on the left, the date prominently in the center, and information on the right.
-
-      ![picture of one of the history sections](documentation/history-sections.png)
+    ![picture of one of the history sections](documentation/history-sections.png)
     - The History sections are also responsive for tablets.
-
+    
       ![picture of one of the history sections](documentation/history-section-tablet.png)
     - The History sections are also responsive for mobile.
-
+    
       ![picture of one of the history sections](documentation/history-section-mobile.png)
 
 - <h3>Sign Up Page</h3>
@@ -215,7 +204,7 @@ Feel free to reach out if you have any questions or feedback! Thank you for visi
   the Footer and signup form code.
   - My mentors Alex and particularly Juliia have been amazing :)
 
-- <h3>Image credits</h3>
+- <h3>Media</h3>
 
 - all images on the website were sourced from the following places:
 
