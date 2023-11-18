@@ -156,9 +156,9 @@ In order to confirm the correct functionality, responsivness and appearance:
   ![picture of the website being tested in Edge](documentation/edge5.png)
 
 - The website was also tested using the Chrome extension [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?pli=1)
-  ![picture of responive viewer on main page](documentation/responsiveviewer2.png)
-  ![picture of responive viewer on history page](documentation/responsiveviewer1.png)
-  ![picture of responive viewer on signup page](documentation/responsiveviewer3.png) 
+  ![picture of responsive viewer on main page](documentation/responsiveviewer2.png)
+  ![picture of responsive viewer on history page](documentation/responsiveviewer1.png)
+  ![picture of responsive viewer on signup page](documentation/responsiveviewer3.png) 
 
 - The website's responsiveness was tested using Media Genesis Responsive design checker
 https://responsivedesignchecker.com/
@@ -177,6 +177,17 @@ https://responsivedesignchecker.com/
     ![Picture of submit page HTML pass](documentation/subpass.png)
   - The CSS file has also passed CSS validity check with W3C.
     ![Picture of CSS File page pass](documentation/csspass.png)
+
+- Lighthouse
+  - All pages have been tested for perfomance, accessibility, best practice and SEO.
+    - Main Page
+    ![Picture of CSS File page pass](documentation/lighthousemain.png)
+    - History page
+    ![Picture of CSS File page pass](documentation/lighthousehistory.png)
+    - Signup page
+    ![Picture of CSS File page pass](documentation/lighthousesignup.png)
+    - Submit Page
+    ![Picture of CSS File page pass](documentation/lighthousesubmit.png)
 
 ## Deployment
 
